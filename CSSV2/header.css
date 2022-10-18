@@ -1,0 +1,197 @@
+header{
+    background-color: rgb(24, 24, 24);
+    color: azure;
+    width: 8%;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    
+}
+.h1-1{
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* 1er bouton */
+
+
+.btn-M{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.4s ease; 
+    position: absolute;
+    top: 15%;
+    right: 20%;
+}
+.btn-M:hover{
+    transform: scale(1.2);
+}
+.btn-M:active{
+    transform: scale(1.4);
+    transition: 0.4s;
+}
+.btn-M span{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    will-change: transform;
+}
+
+.circle-Be{
+    stroke: #00000024;
+    stroke-width: 3;
+}
+.circle-Af{
+    stroke: #ffffff;
+    stroke-width: 3;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+}
+.btn-M:hover .circle-Af{
+    stroke-dashoffset: 0;
+    stroke-width: 3;
+}
+.svg1{
+    transform: rotate(-90deg);
+}
+
+
+/* 2ème bouton */
+
+
+.btn-I{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.4s ease; 
+    position: absolute;
+    right: 20%;
+    top: 30%;
+}
+.btn-I:hover{
+    transform: scale(1.2);
+}
+
+.btn-I:active{
+    transform: scale(1.4);
+    transition: 0.4s;
+}
+.btn-I span{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    will-change: transform;
+}
+.circle-Be2{
+    stroke: #ffffff00;
+    stroke-width: 3;
+}
+.circle-Af2{
+    stroke: #ffffff;
+    stroke-width: 3;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+}
+.btn-I:hover .circle-Af2{
+    stroke-dashoffset: 0;
+    stroke-width: 3;
+}
+
+
+/* 3eme boutton */
+
+
+.btn-S{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.4s ease; 
+    position: absolute;
+    right: 20%;
+    top: 45%;
+}
+.btn-S:hover{
+    transform: scale(1.2);
+}
+
+.btn-S:active{
+    transform: scale(1.4);
+    transition: 0.4s;
+}
+.btn-S span{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    will-change: transform;
+}
+.circle-Be3{
+    stroke: #ffffff00;
+    stroke-width: 3;
+}
+.circle-Af3{
+    stroke: #ffffff;
+    stroke-width: 3;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+}
+.btn-S:hover .circle-Af3{
+    stroke-dashoffset: 0;
+    stroke-width: 3;
+}
+
+
+/* 4eme boutton */
+
+
+.btn-J{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.4s ease; 
+    position: absolute;
+    right: 20%;
+    top: 60%;
+}
+.btn-J:hover{
+    transform: scale(1.2);
+}
+
+.btn-J:active{
+    transform: scale(1.4);
+    transition: 0.4s;
+}
+.btn-J span{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    will-change: transform;
+}
+.circle-Be4{
+    stroke: #ffffff00;
+    stroke-width: 3;
+}
+.circle-Af4{
+    stroke: #ffffff;
+    stroke-width: 3;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+}
+.btn-J:hover .circle-Af4{
+    stroke-dashoffset: 0;
+    stroke-width: 3;
+}
